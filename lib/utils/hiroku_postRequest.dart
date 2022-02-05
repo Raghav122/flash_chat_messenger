@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-String url = 'https://flashchat1913.herokuapp.com/sendNotification';
+String url = '';
 
 Future fcmNotification(String message, String from, String tokens) async {
   Map<String, String> headers = {"Content-type": "application/json"};
